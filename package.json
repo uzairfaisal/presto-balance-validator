@@ -1,0 +1,19 @@
+{
+  "name": "presto-balance-validator",
+  "version": "0.1.0",
+  "description": "Simple app to validate presto balances and highlight problematic transactions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "presto"
+  ],
+  "author": "Uzair Faisal",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "2.4.1",
+    "numeral": "2.0.6"
+  }
+}
